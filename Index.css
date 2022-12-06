@@ -9,9 +9,10 @@ body {
     width: 100vw;
     background-position: bottom;
     background-size: cover;
-    
+
 }
-@media screen and (max-width: 768px){
+
+@media screen and (max-width: 768px) {
     .background {
         padding-right: 130vw
     }
@@ -25,10 +26,11 @@ body {
     font-style: italic;
     font-size: 400%;
 }
-@media screen and (max-width: 768px){
-   #title h1 {
-    padding-left: 7vw;
-   } 
+
+@media screen and (max-width: 768px) {
+    #title h1 {
+        padding-left: 7vw;
+    }
 }
 
 #title h1 {
@@ -40,7 +42,7 @@ body {
 #slogan {
     font-style: italic;
     font-size: 350%;
-    margin: 80px;
+    margin: 5vw;
 }
 
 .second-part {
@@ -51,11 +53,13 @@ body {
     align-items: center;
     flex-direction: column;
 }
-@media screen and (max-width: 768px){
-    .second-part{
+
+@media screen and (max-width: 768px) {
+    .second-part {
         padding-right: 130vw;
     }
 }
+
 #about {
     width: 2240px;
     height: 360px;
@@ -64,34 +68,36 @@ body {
     margin-left: 10vw;
     opacity: 70%;
 }
-@media screen and (max-width 768px){
+
+@media screen and (max-width: 768px) {
     #about {
-        margin-left: 145vw;
+        margin-left: 202vw;
+        margin-bottom: 6vh;
     }
 }
+
 #abouthead {
     color: white;
     margin-left: 10vw;
     margin-right: 18vh;
     font-size: xx-large;
 }
-@media screen and (max-width: 768px){
-    #abouthead{
-        display: flex; flex-direction: column; 
+
+@media screen and (max-width: 768px) {
+    #abouthead {
+        display: flex;
+        flex-direction: column;
     }
 }
-.about-us {
-    
-}
+
 @media screen and (max-width: 768px) {
     .about-us {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    margin-left: 64vw;
-    margin-top: 24vh;
+        flex-direction: column;
+        margin-left: 7vw;
+        margin-top: 24vh;
+    }
 }
-}
+
 #aboutbrief {
     color: white;
     font-size: large;
@@ -102,7 +108,6 @@ body {
 
 #aboutbutton {
     color: white;
-
 }
 
 .firstvision {
@@ -111,7 +116,6 @@ body {
     width: 900px;
     margin-top: 150px;
 }
-
 .visiontitle {
     color: white;
     text-decoration: solid;
@@ -132,17 +136,20 @@ body {
     display: flex;
     align-items: center;
 }
+
 #firstvision-1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 @media screen and (max-width: 768px) {
     #firstvision-1 {
         padding-left: 17vw;
 
     }
 }
+
 .features {
     color: white;
     font-style: inherit;
@@ -153,25 +160,32 @@ body {
     justify-content: space-between;
     height: 250px;
 }
+
 @media screen and (max-width: 768px) {
     .features {
-    padding-left: 5vw;
-    margin-right: 12vw;
+        padding-left: 5vw;
+        margin-right: 12vw;
     }
 }
+
 .features span {
-    display: flex; gap: 20px; align-items: center;
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
+
 #artists-title {
     color: white;
     text-align: center;
     margin-top: 250px;
 }
+
 @media screen and (max-width: 768px) {
     #artists-title {
-    margin-top: 10vh;
+        margin-top: 10vh;
     }
 }
+
 #all-pics {
     width: 100vw;
     display: flex;
@@ -199,27 +213,33 @@ body {
     align-items: center;
     justify-content: space-around;
 }
+
 @media screen and (max-width: 768px) {
     .footer {
         padding-right: 130vw;
     }
 }
+
 #social {
     display: flex;
     flex-direction: row;
 }
+
 #footer-contact {
     display: flex;
     justify-content: center;
 }
+
 #footer-mail {
     display: flex;
     justify-content: center;
 }
+
 #footer-phone {
     display: flex;
     justify-content: center;
 }
+
 #social-connect {
     font-size: larger;
 }
