@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+}
+
+.background {
+    background-repeat: no-repeat;
+    background-image: url("https://wallpaperaccess.com/full/1569718.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-position: bottom;
+    background-size: cover;
+    
+}
+@media screen and (max-width: 768px){
+    .background {
+        padding-right: 130vw
+    }
+}
+
+#title {
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-style: italic;
+    font-size: 400%;
+}
+@media screen and (max-width: 768px){
+   #title h1 {
+    padding-left: 7vw;
+   } 
+}
+
+#title h1 {
+    padding-left: 5vw;
+    font-style: italic;
+    margin: 0px;
+}
+
+#slogan {
+    font-style: italic;
+    font-size: 350%;
+    margin: 80px;
+}
+
+.second-part {
+    width: 100vw;
+    height: 210vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+@media screen and (max-width: 768px){
+    .second-part{
+        padding-right: 130vw;
+    }
+}
+#about {
+    width: 2240px;
+    height: 360px;
+    background-repeat: no-repeat;
+    background-image: url(https://iloveclassicrock.com/wp-content/uploads/2017/11/tumblr_static_tumblr_static_bhpfr8zsaqokwwsws0ogwsg8w_640.jpg);
+    margin-left: 10vw;
+    opacity: 70%;
+}
+@media screen and (max-width 768px){
+    #about {
+        margin-left: 145vw;
+    }
+}
+#abouthead {
+    color: white;
+    margin-left: 10vw;
+    margin-right: 18vh;
+    font-size: xx-large;
+}
+@media screen and (max-width: 768px){
+    #abouthead{
+        display: flex; flex-direction: column; 
+    }
+}
+.about-us {
+    
+}
+@media screen and (max-width: 768px) {
+    .about-us {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 64vw;
+    margin-top: 24vh;
+}
+}
+#aboutbrief {
+    color: white;
+    font-size: large;
+    font-style: italic;
+
+
+}
+
+#aboutbutton {
+    color: white;
+
+}
+
+.firstvision {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin-top: 150px;
+}
+
+.visiontitle {
+    color: white;
+    text-decoration: solid;
+    font-size: xx-large
+}
+
+#visioncontent {
+    color: white;
+    text-decoration: underline;
+    font-size: large;
+    font-style: italic;
+}
+
+.about-us {
+    width: 100vw;
+    height: 66vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+#firstvision-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media screen and (max-width: 768px) {
+    #firstvision-1 {
+        padding-left: 17vw;
+
+    }
+}
+.features {
+    color: white;
+    font-style: inherit;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 250px;
+}
+@media screen and (max-width: 768px) {
+    .features {
+    padding-left: 5vw;
+    margin-right: 12vw;
+    }
+}
+.features span {
+    display: flex; gap: 20px; align-items: center;
+}
+#artists-title {
+    color: white;
+    text-align: center;
+    margin-top: 250px;
+}
+@media screen and (max-width: 768px) {
+    #artists-title {
+    margin-top: 10vh;
+    }
+}
+#all-pics {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#artists-blink {
+    color: white;
+}
+
+#artists-kendrick {
+    color: white;
+}
+
+#artists-gotye {
+    color: white;
+}
+
+.footer {
+    width: 100vw;
+    height: 150px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+@media screen and (max-width: 768px) {
+    .footer {
+        padding-right: 130vw;
+    }
+}
+#social {
+    display: flex;
+    flex-direction: row;
+}
+#footer-contact {
+    display: flex;
+    justify-content: center;
+}
+#footer-mail {
+    display: flex;
+    justify-content: center;
+}
+#footer-phone {
+    display: flex;
+    justify-content: center;
+}
+#social-connect {
+    font-size: larger;
+}
